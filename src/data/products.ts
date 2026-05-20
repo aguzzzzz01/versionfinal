@@ -25,6 +25,11 @@ import pKhamrahSeries from "../assets/images/p_lattafa_khamrah_series_1779231538
 import pEclaire from "../assets/images/p_lattafa_eclaire_1779231563374.png";
 import pIphonesLineup from "../assets/images/p_iphones_lineup_1779231584124.png";
 import pArgShirt from "../assets/images/p_arg_shirt_1779237545917.png";
+import pEstufa1200 from "../assets/images/p_estufa_cuarzo_1200w.png";
+import pEstufa2Velas from "../assets/images/p_estufa_cuarzo_2velas.png";
+import pEstufa3Velas from "../assets/images/p_estufa_3velas_duavf.png";
+import pEscurridor from "../assets/images/p_escurridor_extensible.png";
+import pBolsas from "../assets/images/p_bolsas_plegables.png";
 
 export interface ProductOption {
   spec: string;
@@ -499,5 +504,63 @@ export const PRODUCTS: Product[] = [
         price: "$35.000",
       },
     ],
+  },
+  {
+    id: "estufa_cuarzo_1200w",
+    name: "Estufa de Cuarzo 1200W Reforzada",
+    category: "electro",
+    price: "$23.000",
+    image: pEstufa1200,
+    description:
+      "Calor rápido y directo para cualquier ambiente. 1200W de potencia, 2 niveles de calor, diseño vertical reforzado y bajo consumo. Industria Argentina con 2 llaves y 2 velas. Contiene 9 unidades por bulto mayorista.",
+    tag: "Alta Rotación",
+    options: [
+      { spec: "Unidad", price: "$23.000" },
+      { spec: "Bulto x9 (Mayorista)", price: "Consultar" },
+    ],
+  },
+  {
+    id: "estufa_cuarzo_2velas",
+    name: "Estufa de Cuarzo 2 Velas",
+    category: "electro",
+    price: "$34.380",
+    image: pEstufa2Velas,
+    description:
+      "Adelantate a la temporada y no te quedes sin stock. Calefacción rápida y potente, 2 niveles de calor, sistema de corte automático anti vuelco y diseño compacto. Producto de alta rotación.",
+    tag: "Temporada",
+    options: [
+      { spec: "Unidad x1", price: "$34.380" },
+      { spec: "Bulto x10 (c/u)", price: "$30.000" },
+    ],
+  },
+  {
+    id: "estufa_3velas_duavf",
+    name: "Estufa 3 Velas Fija DUAVF",
+    category: "electro",
+    price: "$32.000",
+    image: pEstufa3Velas,
+    description:
+      "Estufa eléctrica fija DUAVF con 3 tubos independientes. 3 niveles de potencia, sistema de seguridad por caída, calor rápido y regulable. Ideal para cualquier ambiente. 1 año de garantía.",
+    tag: "Garantía",
+  },
+  {
+    id: "escurridor_extensible",
+    name: "Escurridor Extensible de Bacha",
+    category: "electro",
+    price: "$11.000",
+    image: pEscurridor,
+    description:
+      "Extensible: se adapta a distintas medidas de bacha. Estructura resistente de acero inoxidable. Ideal para secar platos, vasos y utensilios. Práctico y duradero para tu cocina.",
+    tag: "Cocina",
+  },
+  {
+    id: "bolsas_plegables",
+    name: "Bolsas de Compras Plegables",
+    category: "electro",
+    price: "$6.800",
+    image: pBolsas,
+    description:
+      "Plegables y fáciles de guardar. Con ruedas para transportar sin esfuerzo. Ideales para compras, feria o uso diario. Disponibles en rojo, negro y naranja.",
+    tag: "Práctico",
   },
 ];
