@@ -9,6 +9,7 @@ import {
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import ogImage from "../assets/logo_fixed_1779202163805_1779229384372.png";
 
 function NotFoundComponent() {
   return (
@@ -72,14 +73,35 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Expo Store" },
+      {
+        name: "description",
+        content:
+          "Expo Store Prime is a mobile-optimized web catalog for EXPOSTORE, showcasing products and facilitating purchases.",
+      },
+      { name: "author", content: "EXPOSTORE" },
+      { property: "og:title", content: "EXPOSTORE | Catálogo Premium" },
+      {
+        property: "og:description",
+        content:
+          "EXPOSTORE Lanús: Catálogo exclusivo de perfumes árabes, iPhones y cuidado capilar. Envíos a todo el país.",
+      },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "EXPOSTORE | Catálogo Premium" },
+      {
+        name: "twitter:description",
+        content:
+          "EXPOSTORE Lanús: Catálogo exclusivo de perfumes árabes, iPhones y cuidado capilar. Envíos a todo el país.",
+      },
+      {
+        property: "og:image",
+        content: ogImage,
+      },
+      {
+        name: "twitter:image",
+        content: ogImage,
+      },
     ],
     links: [
       {
@@ -96,11 +118,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <HeadContent />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         {children}
         <Scripts />
       </body>
