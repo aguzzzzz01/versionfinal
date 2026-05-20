@@ -80,7 +80,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Expo Store Prime is a mobile-optimized web catalog for EXPOSTORE, showcasing products and facilitating purchases.",
       },
       { name: "author", content: "EXPOSTORE" },
-      { property: "og:title", content: "EXPOSTORE | Catálogo Premium" },
+      { property: "og:title", content: "Expo Store" },
       {
         property: "og:description",
         content:
@@ -88,7 +88,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "EXPOSTORE | Catálogo Premium" },
+      { name: "twitter:title", content: "Expo Store" },
       {
         name: "twitter:description",
         content:
@@ -102,6 +102,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         name: "twitter:image",
         content: ogImage,
       },
+      { name: "description", content: "Swift Deployment automates the deployment of applications." },
+      { property: "og:description", content: "Swift Deployment automates the deployment of applications." },
+      { name: "twitter:description", content: "Swift Deployment automates the deployment of applications." },
     ],
     links: [
       {
