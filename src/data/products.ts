@@ -30,6 +30,10 @@ import pEstufa2Velas from "../assets/images/p_estufa_cuarzo_2velas.png";
 import pEstufa3Velas from "../assets/images/p_estufa_3velas_duavf.png";
 import pEscurridor from "../assets/images/p_escurridor_extensible.png";
 import pBolsas from "../assets/images/p_bolsas_plegables.png";
+import pPortaHuevo from "../assets/images/p_porta_huevo.png";
+import pCaloventorDuavf from "../assets/images/p_caloventor_duavf.png";
+import pHongoCalefactor from "../assets/images/p_hongo_calefactor.png";
+import pEstufaHalogenaMagiclick from "../assets/images/p_estufa_halogena_magiclick.png";
 
 export interface ProductOption {
   spec: string;
@@ -562,5 +566,45 @@ export const PRODUCTS: Product[] = [
     description:
       "Plegables y fáciles de guardar. Con ruedas para transportar sin esfuerzo. Ideales para compras, feria o uso diario. Disponibles en rojo, negro y naranja.",
     tag: "Práctico",
+  },
+  {
+    id: "porta_huevo_2_niveles",
+    name: "Porta Huevo de 2 Niveles",
+    category: "electro",
+    price: "$12.000",
+    image: pPortaHuevo,
+    description:
+      "Capacidad para varios huevos con doble bandeja y cajones deslizables. Ahorra espacio y mantiene todo organizado en la heladera o la cocina.",
+    tag: "Organizador",
+  },
+  {
+    id: "caloventor_electrico_duavf",
+    name: "Caloventor Eléctrico DUAVF",
+    category: "electro",
+    price: "$25.000",
+    image: pCaloventorDuavf,
+    description:
+      "Calor rápido y potente para cualquier ambiente. 2000W de potencia, función calor + ventilación, regulador de intensidad, indicador luminoso y patas antideslizantes.",
+    tag: "Invierno",
+  },
+  {
+    id: "hongo_calefactor_exterior_kld",
+    name: "Hongo Calefactor Exterior KLD",
+    category: "electro",
+    price: "$195.000",
+    image: pHongoCalefactor,
+    description:
+      "Ideal para patios, quinchos y espacios abiertos. Funciona con gas envasado, entrega 11.000 kcal/h y brinda un calor envolvente para disfrutar sin frío.",
+    tag: "Exterior",
+  },
+  {
+    id: "estufa_halogena_magiclick",
+    name: "Estufa Halógena Magiclick",
+    category: "electro",
+    price: "$38.500",
+    image: pEstufaHalogenaMagiclick,
+    description:
+      "3 niveles de potencia, calor rápido y eficiente, oscilación para mejor distribución, amplia radiación frontal e interruptor de seguridad anticaída.",
+    tag: "Magiclick",
   },
 ];
