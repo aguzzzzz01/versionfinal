@@ -689,7 +689,7 @@ function Home() {
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.95, y: 20 }}
               className="relative max-h-[85vh] w-full max-w-2xl overflow-y-auto rounded-3xl border border-gold/40 bg-card/95 p-6 sm:p-8 text-foreground/90 shadow-2xl flex flex-col"
-              onClick={(e) => e.stopPropagation()}
+              onClick={(e: React.MouseEvent) => e.stopPropagation()}
             >
               <div className="flex items-center justify-between border-b border-border/20 pb-4 mb-4">
                 <h3 className="text-lg font-black tracking-widest text-gradient-gold uppercase">
