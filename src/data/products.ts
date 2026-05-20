@@ -30,6 +30,10 @@ import pEstufa2Velas from "../assets/images/p_estufa_cuarzo_2velas.png";
 import pEstufa3Velas from "../assets/images/p_estufa_3velas_duavf.png";
 import pEscurridor from "../assets/images/p_escurridor_extensible.png";
 import pBolsas from "../assets/images/p_bolsas_plegables.png";
+import pPortaHuevo from "../assets/images/p_porta_huevo.png";
+import pCaloventorDuavf from "../assets/images/p_caloventor_duavf.png";
+import pHongoCalefactor from "../assets/images/p_hongo_calefactor.png";
+import pEstufaHalogenaMagiclick from "../assets/images/p_estufa_halogena_magiclick.png";
 
 export interface ProductOption {
   spec: string;
