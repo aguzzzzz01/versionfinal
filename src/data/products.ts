@@ -25,6 +25,11 @@ import pKhamrahSeries from "../assets/images/p_lattafa_khamrah_series_1779231538
 import pEclaire from "../assets/images/p_lattafa_eclaire_1779231563374.png";
 import pIphonesLineup from "../assets/images/p_iphones_lineup_1779231584124.png";
 import pArgShirt from "../assets/images/p_arg_shirt_1779237545917.png";
+import pEstufa1200 from "../assets/images/p_estufa_cuarzo_1200w.png";
+import pEstufa2Velas from "../assets/images/p_estufa_cuarzo_2velas.png";
+import pEstufa3Velas from "../assets/images/p_estufa_3velas_duavf.png";
+import pEscurridor from "../assets/images/p_escurridor_extensible.png";
+import pBolsas from "../assets/images/p_bolsas_plegables.png";
 
 export interface ProductOption {
   spec: string;
