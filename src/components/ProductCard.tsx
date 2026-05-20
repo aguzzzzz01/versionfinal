@@ -51,7 +51,7 @@ export function ProductCard({ product }: { product: Product }) {
       </AnimatePresence>
 
       {/* Product Image Stage */}
-      <div className="relative aspect-square rounded-xl overflow-hidden bg-white mb-4 border border-border/20 flex items-center justify-center p-4">
+      <div className="relative aspect-square rounded-xl overflow-hidden bg-white mb-4 border border-border/20">
         <AnimatePresence mode="wait">
           <motion.img
             key={displayImage}
@@ -62,14 +62,14 @@ export function ProductCard({ product }: { product: Product }) {
             src={displayImage}
             alt={displayName}
             referrerPolicy="no-referrer"
-            className="h-full w-full object-contain transition duration-500"
+            className="h-full w-full object-cover transition duration-500"
           />
         </AnimatePresence>
       </div>
 
       <div className="flex-1 flex flex-col">
         {/* Title */}
-        <h3 className="font-bold text-base leading-snug text-foreground/90 group-hover:text-gold transition-colors line-clamp-1">
+        <h3 className="font-bold text-base leading-snug text-foreground/90 group-hover:text-gold transition-colors">
           {displayName}
         </h3>
 
