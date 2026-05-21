@@ -670,13 +670,13 @@ export const PRODUCTS: Product[] = [
     tag: "Herramientas",
   },
   {
-    id: "kit_herramientas_129",
-    name: "Kit de Herramientas 129 Piezas",
+    id: "kit_herramientas_39",
+    name: "Kit de Herramientas 39 Piezas",
     category: "electro",
     price: "$42.900",
     image: nKitHerramientas,
     description:
-      "Incluye 129 herramientas para hogar, auto y trabajos generales: llaves, destornilladores, alicates, martillo, cinta métrica, nivel, puntas y mucho más. Viene en maletín rígido para mantener todo ordenado y fácil de transportar.",
+      "Estuche con 39 herramientas esenciales para hogar, oficina y taller: martillo, pinza, llave inglesa, destornillador con puntas intercambiables, llaves allen, pelacables, cúter y más. Maletín rígido resistente y portátil.",
     tag: "Kit Completo",
   },
   {
@@ -688,16 +688,6 @@ export const PRODUCTS: Product[] = [
     description:
       "Nuevo ingreso. 8 programas de lavado, display LED moderno, inicio diferido para programar el lavado y bajo consumo energético A+.",
     tag: "Nuevo Ingreso",
-  },
-  {
-    id: "lavarropas_philco_phlf6510p2",
-    name: "Lavarropas Philco Carga Frontal 6.5kg PHLF6510P2",
-    category: "electro",
-    price: "$480.000",
-    image: nLavPhilco65,
-    description:
-      "Capacidad 6.5 kg ideal para hogares pequeños o medianos. Centrifugado hasta 1000 RPM, 15 programas de lavado (incluye ciclo rápido de 15 minutos). Tambor de acero inoxidable con tecnología Snowflake Drum para cuidar las prendas.",
-    tag: "Carga Frontal",
   },
   {
     id: "lavarropas_philco_predicta",
