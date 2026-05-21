@@ -5,7 +5,7 @@ import pCombo from "../assets/images/p_combo_1779224267913.png";
 
 // Original New Images
 import pBadeOud from "../assets/images/p_bade_oud_1779196572050.png";
-import pOilKarseell from "../assets/images/p_oil_karseell_1779196585542.png";
+import pOilKarseell from "../assets/images/nuevos/u_karseell_oil.png";
 import pCremaKarseell from "../assets/images/p_crema_karseell_maca_essence_repair_collagen_hair_mask_500g_1779196627715.png";
 import pWolf from "../assets/images/p_wolf_rayhaan_perfume_bottle_with_embossed_wolf_head_1779196643235.png";
 import pKiss from "../assets/images/p_kiss_rayhaan_perfume_bottle_with_gold_lattice_pattern_1779196659325.png";
@@ -24,7 +24,38 @@ import pAsadAll from "../assets/images/p_lattafa_asad_all_1779231515312.png";
 import pKhamrahSeries from "../assets/images/p_lattafa_khamrah_series_1779231538313.png";
 import pEclaire from "../assets/images/p_lattafa_eclaire_1779231563374.png";
 import pIphonesLineup from "../assets/images/p_iphones_lineup_1779231584124.png";
-import pArgShirt from "../assets/images/p_arg_shirt_1779237545917.png";
+import pArgShirt from "../assets/images/nuevos/u_camiseta_arg.png";
+
+// === Nuevos productos (uploads + fotoss.rar) ===
+import nBotellaTermica from "../assets/images/nuevos/u_botella_termica.png";
+import nEscaleraOmaha from "../assets/images/nuevos/u_escalera_omaha.png";
+import nPistolaCalor from "../assets/images/nuevos/u_pistola_calor.png";
+import nKitHerramientas from "../assets/images/nuevos/u_kit_herramientas.png";
+import nLavarropasCodini from "../assets/images/nuevos/u_lavarropas_codini.png";
+import nLavarropasPhilco from "../assets/images/nuevos/u_lavarropas_philco.png";
+import nCocinaUsman from "../assets/images/nuevos/u_cocina_usman.png";
+import nLavPhilco65 from "../assets/images/nuevos/17a91530-86fc-41bb-823d-41496c23e970.jpg";
+import nLavEnova from "../assets/images/nuevos/1e804738-9e30-4db4-8108-845f3057b673.jpg";
+import nTostSpiderman from "../assets/images/nuevos/bd111ca6-3eca-4123-b6c4-9c71a3790cc5.jpg";
+import nWafleraMickey from "../assets/images/nuevos/ef7367b7-3d4e-4561-8607-cc8b20fbc2c3.jpg";
+import nSandwichSpider from "../assets/images/nuevos/cd61560a-0161-4e63-a361-0243d3f0b18c.jpg";
+import nTostStarWars from "../assets/images/nuevos/dd315093-7e99-4912-8127-4a6f21aa145a.jpg";
+import nWafleraMandalorian from "../assets/images/nuevos/5bb4aac6-7d14-40cf-99e8-73240b0b4d30.jpg";
+import nComboNeba from "../assets/images/nuevos/0cd99be3-ee53-4cef-80f6-fbde2e49ca0c.jpg";
+import nTvHyundai from "../assets/images/nuevos/c3c05515-afec-4984-bf19-1feab81c587a.jpg";
+import nTvTcl43 from "../assets/images/nuevos/0561a337-fc67-44ed-be68-023534973200.jpg";
+import nTvRca65 from "../assets/images/nuevos/8d8b9954-2f9f-4d08-85e7-a17f06bf53a9.jpg";
+import nComboHogar from "../assets/images/nuevos/c0c69dc8-1958-450d-ab0b-14d18b4070dd.jpg";
+import nComboReventa from "../assets/images/nuevos/967eb5dc-e6e7-44ab-a96d-28dcac1e4e3a.jpg";
+import nHeladeraGafa262 from "../assets/images/nuevos/2f859a73-bfe2-4ca1-a872-b4edb2cabccb.jpg";
+import nHeladeraGafa354 from "../assets/images/nuevos/c7a773ad-5608-4da7-b1c3-f629ce1be11a.jpg";
+import nHeladeraNeba240 from "../assets/images/nuevos/3c1baabd-74f2-47ec-b3b8-e9b069374290.jpg";
+import nFreezerNeba180 from "../assets/images/nuevos/cc33a7ea-b677-4f61-9c1e-85cd1384916b.jpg";
+import nAutoEstereo from "../assets/images/nuevos/094967f6-6d6d-472e-a970-d42540f733c7.jpg";
+import nTvHyundaiB from "../assets/images/nuevos/1bbadf38-e6a0-4099-a2d8-a86346f2e20b.jpg";
+import nProyectorDinax from "../assets/images/nuevos/4686d469-b7a7-4112-bc86-51a99542edb1.jpg";
+import nAireTcl from "../assets/images/nuevos/e4649030-e65e-47db-be04-f5645e22dfcd.jpg";
+import nMopaRotativa from "../assets/images/nuevos/mopa_rotativa.jpg";
 import pEstufa1200 from "../assets/images/p_estufa_cuarzo_1200w.png";
 import pEstufa2Velas from "../assets/images/p_estufa_cuarzo_2velas.png";
 import pEstufa3Velas from "../assets/images/p_estufa_3velas_duavf.png";
@@ -606,5 +637,307 @@ export const PRODUCTS: Product[] = [
     description:
       "3 niveles de potencia, calor rápido y eficiente, oscilación para mejor distribución, amplia radiación frontal e interruptor de seguridad anticaída.",
     tag: "Magiclick",
+  },
+  // ===== NUEVOS PRODUCTOS =====
+  {
+    id: "botella_termica_brillos",
+    name: "Botella Térmica con Brillos 650ml",
+    category: "electro",
+    price: "$18.800",
+    image: nBotellaTermica,
+    description:
+      "Botella térmica de acero inoxidable cubierta con brillos. Mantiene tus bebidas frías y calientes. Capacidad de 650ml. Disponible en celeste, negro, violeta, blanco y rojo.",
+    tag: "Trendy",
+  },
+  {
+    id: "escalera_omaha_4x4",
+    name: "Escalera Telescópica Omaha 4x4",
+    category: "electro",
+    price: "$156.500",
+    image: nEscaleraOmaha,
+    description:
+      "Súper resistente, versátil y segura para uso profesional o del hogar. 4x4 posiciones, altura extendida 4,7 mts, plegada 123,5 cm. Peso: 15 kg.",
+    tag: "Profesional",
+  },
+  {
+    id: "pistola_calor_omaha",
+    name: "Pistola de Calor Omaha 1800W",
+    category: "electro",
+    price: "$35.000",
+    image: nPistolaCalor,
+    description:
+      "1800W de potencia. Apta para trabajos de calor intenso: termoencogido, remoción de pintura o secado. 220V – 50Hz, 2 ajustes de temperatura (380°C a 500°C), caudal de aire 300–500 L/min, aislación Clase II y base incorporada para enfriamiento.",
+    tag: "Herramientas",
+  },
+  {
+    id: "kit_herramientas_129",
+    name: "Kit de Herramientas 129 Piezas",
+    category: "electro",
+    price: "$42.900",
+    image: nKitHerramientas,
+    description:
+      "Incluye 129 herramientas para hogar, auto y trabajos generales: llaves, destornilladores, alicates, martillo, cinta métrica, nivel, puntas y mucho más. Viene en maletín rígido para mantener todo ordenado y fácil de transportar.",
+    tag: "Kit Completo",
+  },
+  {
+    id: "lavarropas_codini_6kg",
+    name: "Lavarropas Codini Automático Carga Superior 6kg",
+    category: "electro",
+    price: "$350.000",
+    image: nLavarropasCodini,
+    description:
+      "Nuevo ingreso. 8 programas de lavado, display LED moderno, inicio diferido para programar el lavado y bajo consumo energético A+.",
+    tag: "Nuevo Ingreso",
+  },
+  {
+    id: "lavarropas_philco_phlf6510p2",
+    name: "Lavarropas Philco Carga Frontal 6.5kg PHLF6510P2",
+    category: "electro",
+    price: "$480.000",
+    image: nLavPhilco65,
+    description:
+      "Capacidad 6.5 kg ideal para hogares pequeños o medianos. Centrifugado hasta 1000 RPM, 15 programas de lavado (incluye ciclo rápido de 15 minutos). Tambor de acero inoxidable con tecnología Snowflake Drum para cuidar las prendas.",
+    tag: "Carga Frontal",
+  },
+  {
+    id: "lavarropas_philco_predicta",
+    name: "Lavarropas Philco Predicta 6.5kg",
+    category: "electro",
+    price: "$460.000",
+    image: nLavarropasPhilco,
+    description:
+      "Color gris con diseño moderno. Múltiples programas de lavado, tecnología Snowflake Drum que cuida tu ropa, centrifugado de 1000 RPM para secado más rápido y bajo consumo de energía. Capacidad ideal para uso diario.",
+    tag: "Súper Oferta",
+  },
+  {
+    id: "lavarropas_enova_6kg",
+    name: "Lavarropas Automático Enova 6kg",
+    category: "electro",
+    price: "$430.000",
+    image: nLavEnova,
+    description:
+      "Carga frontal 6kg, lavado rápido para ahorrar tiempo, centrifugado 1000 RPM (ropa más seca), tambor de acero inoxidable y eficiencia energética A. Moderno, compacto y fácil de usar.",
+    tag: "Stock Limitado",
+  },
+  {
+    id: "cocina_usman_industrial",
+    name: "Cocina Usman Industrial Compact",
+    category: "electro",
+    price: "$355.000",
+    image: nCocinaUsman,
+    description:
+      "Practicidad y potencia para todos los días. 4 hornallas de buen rendimiento, parrillas resistentes y horno amplio con vidrio templado para controlar la cocción fácilmente. Diseño en acero inoxidable y negro, moderno y duradero.",
+    tag: "Industrial",
+  },
+  {
+    id: "tostadora_spiderman",
+    name: "Tostadora Spiderman",
+    category: "electro",
+    price: "$44.900",
+    image: nTostSpiderman,
+    description:
+      "7 niveles de tostado y capacidad para dos rodajas. Dispone bandeja recoge migas. Funciones: tostar, calentar y descongelar.",
+    tag: "Temática",
+  },
+  {
+    id: "waflera_sandwichera_mickey",
+    name: "Waflera Sandwichera Mickey/Minnie 2 en 1",
+    category: "electro",
+    price: "$55.000",
+    image: nWafleraMickey,
+    description:
+      "Potencia de 700W. Antiadherente y con luz de encendido. Sus placas son removibles e intercambiables, permitiendo una versatilidad que se adapta a tus antojos.",
+    tag: "2 en 1",
+  },
+  {
+    id: "sandwichera_spiderman",
+    name: "Sandwichera Spider-Man",
+    category: "electro",
+    price: "$34.900",
+    image: nSandwichSpider,
+    description:
+      "¡Tus sándwiches con el logo de Spider-Man! Antiadherente, con luz indicadora y diseño temático ideal para regalo.",
+    tag: "Temática",
+  },
+  {
+    id: "tostadora_atma_starwars",
+    name: "Tostadora Atma Star Wars",
+    category: "electro",
+    price: "$44.900",
+    image: nTostStarWars,
+    description:
+      "Base con pie de goma antideslizante. Fácil de limpiar. 7 niveles de tostado. Diseño temático Star Wars para fans de la saga.",
+    tag: "Temática",
+  },
+  {
+    id: "waflera_mandalorian",
+    name: "Waflera Mandalorian",
+    category: "electro",
+    price: "$42.900",
+    image: nWafleraMandalorian,
+    description:
+      "Revestimiento antiadherente y traba de seguridad. Permite cocinar hasta 2 porciones al mismo tiempo. Con luz de encendido.",
+    tag: "Temática",
+  },
+  {
+    id: "smart_tv_hyundai_32",
+    name: "Smart TV Hyundai 32” Android",
+    category: "electro",
+    price: "$250.000",
+    image: nTvHyundai,
+    description:
+      "Pantalla 32” HD, sistema Android TV. Apps: YouTube, Netflix y muchas más. Control por voz (Hey Google). Entradas HDMI y USB. Ideal para casa, habitación o reventa.",
+    tag: "Smart TV",
+  },
+  {
+    id: "smart_tv_hyundai_32_b",
+    name: "Smart TV Hyundai 32” HD",
+    category: "electro",
+    price: "$252.000",
+    image: nTvHyundaiB,
+    description:
+      "Pantalla 32” HD. Sistema Android TV. Apps: YouTube, Netflix y más. Control por voz (Hey Google). Entradas HDMI y USB.",
+    tag: "Smart TV",
+  },
+  {
+    id: "smart_tv_tcl_43",
+    name: "Smart TV TCL 43” QLED 4K",
+    category: "electro",
+    price: "$399.900",
+    image: nTvTcl43,
+    description:
+      "Pantalla 43” QLED 4K Ultra HD (colores más vivos y definición increíble). Google TV integrado, Netflix, YouTube, Prime Video y más. WiFi + Bluetooth, HDR, múltiples HDMI/USB y sonido envolvente.",
+    tag: "QLED 4K",
+  },
+  {
+    id: "smart_tv_rca_65",
+    name: "Smart TV RCA 65” Android 4K",
+    category: "electro",
+    price: "$873.900",
+    image: nTvRca65,
+    description:
+      "Pantalla 65” 4K Ultra HD. Sistema Android TV rápido e intuitivo. Apps: Netflix, YouTube, Prime Video. WiFi integrado, entradas HDMI y USB, sonido potente envolvente. Ideal para living grande o tu propio cine en casa.",
+    tag: "Premium 65”",
+  },
+  {
+    id: "heladera_gafa_262",
+    name: "Heladera Gafa No Frost 262L Blanca",
+    category: "electro",
+    price: "$580.000",
+    image: nHeladeraGafa262,
+    description:
+      "No Frost (no genera escarcha). Sistema Multiflow: frescura pareja. Compartimento extra frío + Ice Twister. Estantes de vidrio templado, puertas reversibles y luz LED.",
+    tag: "No Frost",
+  },
+  {
+    id: "heladera_gafa_354",
+    name: "Heladera Gafa 354L Gris Plata No Frost",
+    category: "electro",
+    price: "$659.000",
+    image: nHeladeraGafa354,
+    description:
+      "Tecnología Inverter: ahorra energía y enfría mejor. No Frost + sistema Multiflow. Estantes de vidrio templado, puertas reversibles y diseño moderno. Medidas: 170,5 × 60,2 × 67 cm.",
+    tag: "Inverter",
+  },
+  {
+    id: "heladera_drean_400",
+    name: "Heladera Drean 400L con Dispenser",
+    category: "electro",
+    price: "$749.000",
+    image: nHeladeraGafa354,
+    description:
+      "Eficiencia A+ para menor consumo y mejor rendimiento. Freezer superior XXL de 126 litros, sistema Cycle Defrost y dispenser de agua de 2L. Incluye estantes de vidrio templado regulables, luz LED interior y diseño moderno en gris.",
+    tag: "Dispenser",
+  },
+  {
+    id: "heladera_neba_240",
+    name: "Heladera Neba 240L",
+    category: "electro",
+    price: "$450.000",
+    image: nHeladeraNeba240,
+    description:
+      "240 litros en total, divididos en 171L para alimentos frescos y 42L para congelados. Sistema de frío cíclico. Medidas: 56.5 ancho x 1.27 alto x 62 prof.",
+    tag: "Oferta",
+  },
+  {
+    id: "freezer_neba_180",
+    name: "Freezer Neba 180L Carga Superior",
+    category: "electro",
+    price: "$450.000",
+    image: nFreezerNeba180,
+    description:
+      "Carga superior – 1 puerta. Sistema de frío eficiente. Excelente conservación y congelado rápido. Bajo consumo energético.",
+    tag: "Freezer",
+  },
+  {
+    id: "auto_estereo_mp5_7",
+    name: "Auto Estéreo MP5 de 7”",
+    category: "electro",
+    price: "$72.900",
+    image: nAutoEstereo,
+    description:
+      "Pantalla táctil de 7” HD 1080P con múltiples funciones. Radio FM, GPS, cámara retrovisor. Doble USB (datos y carga rápida). Mirror Link para Android y iOS.",
+    tag: "Car Audio",
+  },
+  {
+    id: "proyector_dinax_4k",
+    name: "Proyector Portátil Dinax 4K",
+    category: "electro",
+    price: "$85.000",
+    image: nProyectorDinax,
+    description:
+      "Resolución 4K Ultra HD para imágenes nítidas y realistas. Brillo 200 ANSI, ideal para usar de día o de noche. Conexión HDMI + USB. Incluye control remoto y cable, listo para usar.",
+    tag: "Cine en Casa",
+  },
+  {
+    id: "aire_tcl_2600",
+    name: "Aire Acondicionado Split TCL 2600W",
+    category: "electro",
+    price: "$549.000",
+    image: nAireTcl,
+    description:
+      "2650W frío / 2500W calor. Climatización frío/calor para disfrutar de confort todo el año. Temporizador programable, pantalla digital y control remoto para fácil manejo y ajuste.",
+    tag: "Frío/Calor",
+  },
+  {
+    id: "mopa_rotativa_360",
+    name: "Mopa Rotativa 360° Expostore",
+    category: "electro",
+    price: "$19.990",
+    image: nMopaRotativa,
+    description:
+      "¡La forma más fácil y rápida de limpiar tu casa! Sistema de centrifugado que escurre el agua en segundos. Ideal para cerámico, porcelanato, madera y más. Giro 360°, balde con exprimidor incorporado, cabezal de microfibra súper absorbente, 2 repuestos incluidos. Antes $25.000.",
+    tag: "Oferta",
+  },
+  // ===== COMBOS =====
+  {
+    id: "combo_neba_1300",
+    name: "Combo Reventa $1.300.000 (Heladera Neba + 9 productos)",
+    category: "combos",
+    price: "$1.300.000",
+    image: nComboNeba,
+    description:
+      "Combo armado con productos que se venden solos, ideal para revender y recuperar rápido la inversión. Incluye: Heladera Neba 240L con dispenser, Lavarropas Enova 6kg, Microondas Tramontina, Horno freidora, Licuadora Peabody, Cafetera Dinax, Set de sartenes x3, Tuppers x5, Estufa Magiclick y Sandwichera 3 en 1 Dinax.",
+    tag: "Reventa",
+  },
+  {
+    id: "combo_hogar_1300",
+    name: "Combo Hogar Completo $1.300.000",
+    category: "combos",
+    price: "$1.300.000",
+    image: nComboHogar,
+    description:
+      "Equipá toda la casa en una sola compra. Incluye: Cocina Peabody Gris, Lavarropas Philco 6.5kg carga frontal, Heladera Neba No-Frost 240L, Set de Ollas Safira, Pava Eléctrica Atma, Set de cubiertos y set de utensilios 12 piezas. Ideal para primera vivienda, mudanzas o regalo completo.",
+    tag: "Hogar Total",
+  },
+  {
+    id: "combo_reventa_580",
+    name: "Combo Reventa $580.000 (10 productos)",
+    category: "combos",
+    price: "$580.000",
+    image: nComboReventa,
+    description:
+      "Combo completo para revender y hacer plata ya. Incluye: Microondas BGH 20L, ollas con utensilios, sartenes x3, tostadora Dinax, máquina de galletitas, licuadora Peabody, pochoclera Azzana, batidora planetaria 4L, vaso Quencher 900ml y pava hervidora Tokyo.",
+    tag: "Reventa",
   },
 ];
