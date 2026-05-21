@@ -820,33 +820,33 @@ export const PRODUCTS: Product[] = [
     tag: "No Frost",
   },
   {
-    id: "heladera_gafa_354",
-    name: "Heladera Gafa 354L Gris Plata No Frost",
+    id: "heladera_gafa_356",
+    name: "Heladera Gafa 356L Gris Plata Inverter",
     category: "electro",
     price: "$659.000",
-    image: nHeladeraGafa354,
+    image: nHeladeraGafa356,
     description:
-      "Tecnología Inverter: ahorra energía y enfría mejor. No Frost + sistema Multiflow. Estantes de vidrio templado, puertas reversibles y diseño moderno. Medidas: 170,5 × 60,2 × 67 cm.",
+      "Tecnología Inverter: ahorra energía y enfría mejor. No Frost + Sistema Multiflow, Smart Distribution y sector extra frío. Diseño moderno en gris plata.",
     tag: "Inverter",
   },
   {
     id: "heladera_drean_400",
-    name: "Heladera Drean 400L con Dispenser",
+    name: "Heladera Drean 396L con Dispenser",
     category: "electro",
     price: "$749.000",
-    image: nHeladeraGafa354,
+    image: nHeladeraDrean400,
     description:
-      "Eficiencia A+ para menor consumo y mejor rendimiento. Freezer superior XXL de 126 litros, sistema Cycle Defrost y dispenser de agua de 2L. Incluye estantes de vidrio templado regulables, luz LED interior y diseño moderno en gris.",
+      "Eficiencia A+ para menor consumo. 396L brutos con freezer XXL de 126L, sistema Cycle Defrost y dispenser de agua de 2 litros. Estantes de vidrio y diseño moderno en gris.",
     tag: "Dispenser",
   },
   {
     id: "heladera_neba_240",
-    name: "Heladera Neba 240L",
+    name: "Heladera Neba H240Y 240L con Freezer Superior",
     category: "electro",
     price: "$450.000",
     image: nHeladeraNeba240,
     description:
-      "240 litros en total, divididos en 171L para alimentos frescos y 42L para congelados. Sistema de frío cíclico. Medidas: 56.5 ancho x 1.27 alto x 62 prof.",
+      "240 litros de capacidad con freezer superior. Frío óptimo, bajo nivel de ruido, bajo consumo energético clase A y garantía Neba. Ideal para hogares medianos.",
     tag: "Oferta",
   },
   {
@@ -861,43 +861,33 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "auto_estereo_mp5_7",
-    name: "Auto Estéreo MP5 de 7”",
+    name: "Auto Estéreo SOAK SK-7018 MP5 7”",
     category: "electro",
     price: "$72.900",
     image: nAutoEstereo,
     description:
-      "Pantalla táctil de 7” HD 1080P con múltiples funciones. Radio FM, GPS, cámara retrovisor. Doble USB (datos y carga rápida). Mirror Link para Android y iOS.",
+      "Pantalla táctil capacitiva de 7” HD 1080P. Radio FM, Bluetooth, USB y entrada para cámara de retroceso. Incluye control remoto y cableado. Mirror Link para Android y iOS.",
     tag: "Car Audio",
   },
   {
     id: "proyector_dinax_4k",
-    name: "Proyector Portátil Dinax 4K",
+    name: "Proyector Portátil Dinax Link 4K",
     category: "electro",
     price: "$85.000",
     image: nProyectorDinax,
     description:
-      "Resolución 4K Ultra HD para imágenes nítidas y realistas. Brillo 200 ANSI, ideal para usar de día o de noche. Conexión HDMI + USB. Incluye control remoto y cable, listo para usar.",
+      "Resolución 4K Ultra HD nítida y realista. Brillo 200 ANSI ideal día/noche. Conexión HDMI + USB y Bluetooth 5.0 con sonido estéreo integrado. Incluye cable, listo para usar.",
     tag: "Cine en Casa",
   },
   {
     id: "aire_tcl_2600",
-    name: "Aire Acondicionado Split TCL 2600W",
+    name: "Aire Acondicionado Split TCL 2600W Frío/Calor",
     category: "electro",
     price: "$549.000",
     image: nAireTcl,
     description:
-      "2650W frío / 2500W calor. Climatización frío/calor para disfrutar de confort todo el año. Temporizador programable, pantalla digital y control remoto para fácil manejo y ajuste.",
+      "Split frío/calor: 2650W frío / 2500W calor para confort todo el año. Temporizador programable, pantalla digital y control remoto. Incluye unidad interior y exterior.",
     tag: "Frío/Calor",
-  },
-  {
-    id: "mopa_rotativa_360",
-    name: "Mopa Rotativa 360° Expostore",
-    category: "electro",
-    price: "$19.990",
-    image: nMopaRotativa,
-    description:
-      "¡La forma más fácil y rápida de limpiar tu casa! Sistema de centrifugado que escurre el agua en segundos. Ideal para cerámico, porcelanato, madera y más. Giro 360°, balde con exprimidor incorporado, cabezal de microfibra súper absorbente, 2 repuestos incluidos. Antes $25.000.",
-    tag: "Oferta",
   },
   // ===== COMBOS =====
   {
