@@ -5,7 +5,7 @@ import pCombo from "../assets/images/p_combo_1779224267913.png";
 
 // Original New Images
 import pBadeOud from "../assets/images/p_bade_oud_1779196572050.png";
-import pOilKarseell from "../assets/images/p_oil_karseell_1779196585542.png";
+import pOilKarseell from "../assets/images/nuevos/u_karseell_oil.png";
 import pCremaKarseell from "../assets/images/p_crema_karseell_maca_essence_repair_collagen_hair_mask_500g_1779196627715.png";
 import pWolf from "../assets/images/p_wolf_rayhaan_perfume_bottle_with_embossed_wolf_head_1779196643235.png";
 import pKiss from "../assets/images/p_kiss_rayhaan_perfume_bottle_with_gold_lattice_pattern_1779196659325.png";
@@ -24,7 +24,38 @@ import pAsadAll from "../assets/images/p_lattafa_asad_all_1779231515312.png";
 import pKhamrahSeries from "../assets/images/p_lattafa_khamrah_series_1779231538313.png";
 import pEclaire from "../assets/images/p_lattafa_eclaire_1779231563374.png";
 import pIphonesLineup from "../assets/images/p_iphones_lineup_1779231584124.png";
-import pArgShirt from "../assets/images/p_arg_shirt_1779237545917.png";
+import pArgShirt from "../assets/images/nuevos/u_camiseta_arg.png";
+
+// === Nuevos productos (uploads + fotoss.rar) ===
+import nBotellaTermica from "../assets/images/nuevos/u_botella_termica.png";
+import nEscaleraOmaha from "../assets/images/nuevos/u_escalera_omaha.png";
+import nPistolaCalor from "../assets/images/nuevos/u_pistola_calor.png";
+import nKitHerramientas from "../assets/images/nuevos/u_kit_herramientas.png";
+import nLavarropasCodini from "../assets/images/nuevos/u_lavarropas_codini.png";
+import nLavarropasPhilco from "../assets/images/nuevos/u_lavarropas_philco.png";
+import nCocinaUsman from "../assets/images/nuevos/u_cocina_usman.png";
+import nLavPhilco65 from "../assets/images/nuevos/17a91530-86fc-41bb-823d-41496c23e970.jpg";
+import nLavEnova from "../assets/images/nuevos/1e804738-9e30-4db4-8108-845f3057b673.jpg";
+import nTostSpiderman from "../assets/images/nuevos/bd111ca6-3eca-4123-b6c4-9c71a3790cc5.jpg";
+import nWafleraMickey from "../assets/images/nuevos/ef7367b7-3d4e-4561-8607-cc8b20fbc2c3.jpg";
+import nSandwichSpider from "../assets/images/nuevos/cd61560a-0161-4e63-a361-0243d3f0b18c.jpg";
+import nTostStarWars from "../assets/images/nuevos/dd315093-7e99-4912-8127-4a6f21aa145a.jpg";
+import nWafleraMandalorian from "../assets/images/nuevos/5bb4aac6-7d14-40cf-99e8-73240b0b4d30.jpg";
+import nComboNeba from "../assets/images/nuevos/0cd99be3-ee53-4cef-80f6-fbde2e49ca0c.jpg";
+import nTvHyundai from "../assets/images/nuevos/c3c05515-afec-4984-bf19-1feab81c587a.jpg";
+import nTvTcl43 from "../assets/images/nuevos/0561a337-fc67-44ed-be68-023534973200.jpg";
+import nTvRca65 from "../assets/images/nuevos/8d8b9954-2f9f-4d08-85e7-a17f06bf53a9.jpg";
+import nComboHogar from "../assets/images/nuevos/c0c69dc8-1958-450d-ab0b-14d18b4070dd.jpg";
+import nComboReventa from "../assets/images/nuevos/967eb5dc-e6e7-44ab-a96d-28dcac1e4e3a.jpg";
+import nHeladeraGafa262 from "../assets/images/nuevos/2f859a73-bfe2-4ca1-a872-b4edb2cabccb.jpg";
+import nHeladeraGafa354 from "../assets/images/nuevos/c7a773ad-5608-4da7-b1c3-f629ce1be11a.jpg";
+import nHeladeraNeba240 from "../assets/images/nuevos/3c1baabd-74f2-47ec-b3b8-e9b069374290.jpg";
+import nFreezerNeba180 from "../assets/images/nuevos/cc33a7ea-b677-4f61-9c1e-85cd1384916b.jpg";
+import nAutoEstereo from "../assets/images/nuevos/094967f6-6d6d-472e-a970-d42540f733c7.jpg";
+import nTvHyundaiB from "../assets/images/nuevos/1bbadf38-e6a0-4099-a2d8-a86346f2e20b.jpg";
+import nProyectorDinax from "../assets/images/nuevos/4686d469-b7a7-4112-bc86-51a99542edb1.jpg";
+import nAireTcl from "../assets/images/nuevos/e4649030-e65e-47db-be04-f5645e22dfcd.jpg";
+import nMopaRotativa from "../assets/images/nuevos/mopa_rotativa.jpg";
 import pEstufa1200 from "../assets/images/p_estufa_cuarzo_1200w.png";
 import pEstufa2Velas from "../assets/images/p_estufa_cuarzo_2velas.png";
 import pEstufa3Velas from "../assets/images/p_estufa_3velas_duavf.png";
