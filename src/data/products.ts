@@ -638,4 +638,306 @@ export const PRODUCTS: Product[] = [
       "3 niveles de potencia, calor rápido y eficiente, oscilación para mejor distribución, amplia radiación frontal e interruptor de seguridad anticaída.",
     tag: "Magiclick",
   },
+  // ===== NUEVOS PRODUCTOS =====
+  {
+    id: "botella_termica_brillos",
+    name: "Botella Térmica con Brillos 650ml",
+    category: "electro",
+    price: "$18.800",
+    image: nBotellaTermica,
+    description:
+      "Botella térmica de acero inoxidable cubierta con brillos. Mantiene tus bebidas frías y calientes. Capacidad de 650ml. Disponible en celeste, negro, violeta, blanco y rojo.",
+    tag: "Trendy",
+  },
+  {
+    id: "escalera_omaha_4x4",
+    name: "Escalera Telescópica Omaha 4x4",
+    category: "electro",
+    price: "$156.500",
+    image: nEscaleraOmaha,
+    description:
+      "Súper resistente, versátil y segura para uso profesional o del hogar. 4x4 posiciones, altura extendida 4,7 mts, plegada 123,5 cm. Peso: 15 kg.",
+    tag: "Profesional",
+  },
+  {
+    id: "pistola_calor_omaha",
+    name: "Pistola de Calor Omaha 1800W",
+    category: "electro",
+    price: "$35.000",
+    image: nPistolaCalor,
+    description:
+      "1800W de potencia. Apta para trabajos de calor intenso: termoencogido, remoción de pintura o secado. 220V – 50Hz, 2 ajustes de temperatura (380°C a 500°C), caudal de aire 300–500 L/min, aislación Clase II y base incorporada para enfriamiento.",
+    tag: "Herramientas",
+  },
+  {
+    id: "kit_herramientas_129",
+    name: "Kit de Herramientas 129 Piezas",
+    category: "electro",
+    price: "$42.900",
+    image: nKitHerramientas,
+    description:
+      "Incluye 129 herramientas para hogar, auto y trabajos generales: llaves, destornilladores, alicates, martillo, cinta métrica, nivel, puntas y mucho más. Viene en maletín rígido para mantener todo ordenado y fácil de transportar.",
+    tag: "Kit Completo",
+  },
+  {
+    id: "lavarropas_codini_6kg",
+    name: "Lavarropas Codini Automático Carga Superior 6kg",
+    category: "electro",
+    price: "$350.000",
+    image: nLavarropasCodini,
+    description:
+      "Nuevo ingreso. 8 programas de lavado, display LED moderno, inicio diferido para programar el lavado y bajo consumo energético A+.",
+    tag: "Nuevo Ingreso",
+  },
+  {
+    id: "lavarropas_philco_phlf6510p2",
+    name: "Lavarropas Philco Carga Frontal 6.5kg PHLF6510P2",
+    category: "electro",
+    price: "$480.000",
+    image: nLavPhilco65,
+    description:
+      "Capacidad 6.5 kg ideal para hogares pequeños o medianos. Centrifugado hasta 1000 RPM, 15 programas de lavado (incluye ciclo rápido de 15 minutos). Tambor de acero inoxidable con tecnología Snowflake Drum para cuidar las prendas.",
+    tag: "Carga Frontal",
+  },
+  {
+    id: "lavarropas_philco_predicta",
+    name: "Lavarropas Philco Predicta 6.5kg",
+    category: "electro",
+    price: "$460.000",
+    image: nLavarropasPhilco,
+    description:
+      "Color gris con diseño moderno. Múltiples programas de lavado, tecnología Snowflake Drum que cuida tu ropa, centrifugado de 1000 RPM para secado más rápido y bajo consumo de energía. Capacidad ideal para uso diario.",
+    tag: "Súper Oferta",
+  },
+  {
+    id: "lavarropas_enova_6kg",
+    name: "Lavarropas Automático Enova 6kg",
+    category: "electro",
+    price: "$430.000",
+    image: nLavEnova,
+    description:
+      "Carga frontal 6kg, lavado rápido para ahorrar tiempo, centrifugado 1000 RPM (ropa más seca), tambor de acero inoxidable y eficiencia energética A. Moderno, compacto y fácil de usar.",
+    tag: "Stock Limitado",
+  },
+  {
+    id: "cocina_usman_industrial",
+    name: "Cocina Usman Industrial Compact",
+    category: "electro",
+    price: "$355.000",
+    image: nCocinaUsman,
+    description:
+      "Practicidad y potencia para todos los días. 4 hornallas de buen rendimiento, parrillas resistentes y horno amplio con vidrio templado para controlar la cocción fácilmente. Diseño en acero inoxidable y negro, moderno y duradero.",
+    tag: "Industrial",
+  },
+  {
+    id: "tostadora_spiderman",
+    name: "Tostadora Spiderman",
+    category: "electro",
+    price: "$44.900",
+    image: nTostSpiderman,
+    description:
+      "7 niveles de tostado y capacidad para dos rodajas. Dispone bandeja recoge migas. Funciones: tostar, calentar y descongelar.",
+    tag: "Temática",
+  },
+  {
+    id: "waflera_sandwichera_mickey",
+    name: "Waflera Sandwichera Mickey/Minnie 2 en 1",
+    category: "electro",
+    price: "$55.000",
+    image: nWafleraMickey,
+    description:
+      "Potencia de 700W. Antiadherente y con luz de encendido. Sus placas son removibles e intercambiables, permitiendo una versatilidad que se adapta a tus antojos.",
+    tag: "2 en 1",
+  },
+  {
+    id: "sandwichera_spiderman",
+    name: "Sandwichera Spider-Man",
+    category: "electro",
+    price: "$34.900",
+    image: nSandwichSpider,
+    description:
+      "¡Tus sándwiches con el logo de Spider-Man! Antiadherente, con luz indicadora y diseño temático ideal para regalo.",
+    tag: "Temática",
+  },
+  {
+    id: "tostadora_atma_starwars",
+    name: "Tostadora Atma Star Wars",
+    category: "electro",
+    price: "$44.900",
+    image: nTostStarWars,
+    description:
+      "Base con pie de goma antideslizante. Fácil de limpiar. 7 niveles de tostado. Diseño temático Star Wars para fans de la saga.",
+    tag: "Temática",
+  },
+  {
+    id: "waflera_mandalorian",
+    name: "Waflera Mandalorian",
+    category: "electro",
+    price: "$42.900",
+    image: nWafleraMandalorian,
+    description:
+      "Revestimiento antiadherente y traba de seguridad. Permite cocinar hasta 2 porciones al mismo tiempo. Con luz de encendido.",
+    tag: "Temática",
+  },
+  {
+    id: "smart_tv_hyundai_32",
+    name: "Smart TV Hyundai 32” Android",
+    category: "electro",
+    price: "$250.000",
+    image: nTvHyundai,
+    description:
+      "Pantalla 32” HD, sistema Android TV. Apps: YouTube, Netflix y muchas más. Control por voz (Hey Google). Entradas HDMI y USB. Ideal para casa, habitación o reventa.",
+    tag: "Smart TV",
+  },
+  {
+    id: "smart_tv_hyundai_32_b",
+    name: "Smart TV Hyundai 32” HD",
+    category: "electro",
+    price: "$252.000",
+    image: nTvHyundaiB,
+    description:
+      "Pantalla 32” HD. Sistema Android TV. Apps: YouTube, Netflix y más. Control por voz (Hey Google). Entradas HDMI y USB.",
+    tag: "Smart TV",
+  },
+  {
+    id: "smart_tv_tcl_43",
+    name: "Smart TV TCL 43” QLED 4K",
+    category: "electro",
+    price: "$399.900",
+    image: nTvTcl43,
+    description:
+      "Pantalla 43” QLED 4K Ultra HD (colores más vivos y definición increíble). Google TV integrado, Netflix, YouTube, Prime Video y más. WiFi + Bluetooth, HDR, múltiples HDMI/USB y sonido envolvente.",
+    tag: "QLED 4K",
+  },
+  {
+    id: "smart_tv_rca_65",
+    name: "Smart TV RCA 65” Android 4K",
+    category: "electro",
+    price: "$873.900",
+    image: nTvRca65,
+    description:
+      "Pantalla 65” 4K Ultra HD. Sistema Android TV rápido e intuitivo. Apps: Netflix, YouTube, Prime Video. WiFi integrado, entradas HDMI y USB, sonido potente envolvente. Ideal para living grande o tu propio cine en casa.",
+    tag: "Premium 65”",
+  },
+  {
+    id: "heladera_gafa_262",
+    name: "Heladera Gafa No Frost 262L Blanca",
+    category: "electro",
+    price: "$580.000",
+    image: nHeladeraGafa262,
+    description:
+      "No Frost (no genera escarcha). Sistema Multiflow: frescura pareja. Compartimento extra frío + Ice Twister. Estantes de vidrio templado, puertas reversibles y luz LED.",
+    tag: "No Frost",
+  },
+  {
+    id: "heladera_gafa_354",
+    name: "Heladera Gafa 354L Gris Plata No Frost",
+    category: "electro",
+    price: "$659.000",
+    image: nHeladeraGafa354,
+    description:
+      "Tecnología Inverter: ahorra energía y enfría mejor. No Frost + sistema Multiflow. Estantes de vidrio templado, puertas reversibles y diseño moderno. Medidas: 170,5 × 60,2 × 67 cm.",
+    tag: "Inverter",
+  },
+  {
+    id: "heladera_drean_400",
+    name: "Heladera Drean 400L con Dispenser",
+    category: "electro",
+    price: "$749.000",
+    image: nHeladeraGafa354,
+    description:
+      "Eficiencia A+ para menor consumo y mejor rendimiento. Freezer superior XXL de 126 litros, sistema Cycle Defrost y dispenser de agua de 2L. Incluye estantes de vidrio templado regulables, luz LED interior y diseño moderno en gris.",
+    tag: "Dispenser",
+  },
+  {
+    id: "heladera_neba_240",
+    name: "Heladera Neba 240L",
+    category: "electro",
+    price: "$450.000",
+    image: nHeladeraNeba240,
+    description:
+      "240 litros en total, divididos en 171L para alimentos frescos y 42L para congelados. Sistema de frío cíclico. Medidas: 56.5 ancho x 1.27 alto x 62 prof.",
+    tag: "Oferta",
+  },
+  {
+    id: "freezer_neba_180",
+    name: "Freezer Neba 180L Carga Superior",
+    category: "electro",
+    price: "$450.000",
+    image: nFreezerNeba180,
+    description:
+      "Carga superior – 1 puerta. Sistema de frío eficiente. Excelente conservación y congelado rápido. Bajo consumo energético.",
+    tag: "Freezer",
+  },
+  {
+    id: "auto_estereo_mp5_7",
+    name: "Auto Estéreo MP5 de 7”",
+    category: "electro",
+    price: "$72.900",
+    image: nAutoEstereo,
+    description:
+      "Pantalla táctil de 7” HD 1080P con múltiples funciones. Radio FM, GPS, cámara retrovisor. Doble USB (datos y carga rápida). Mirror Link para Android y iOS.",
+    tag: "Car Audio",
+  },
+  {
+    id: "proyector_dinax_4k",
+    name: "Proyector Portátil Dinax 4K",
+    category: "electro",
+    price: "$85.000",
+    image: nProyectorDinax,
+    description:
+      "Resolución 4K Ultra HD para imágenes nítidas y realistas. Brillo 200 ANSI, ideal para usar de día o de noche. Conexión HDMI + USB. Incluye control remoto y cable, listo para usar.",
+    tag: "Cine en Casa",
+  },
+  {
+    id: "aire_tcl_2600",
+    name: "Aire Acondicionado Split TCL 2600W",
+    category: "electro",
+    price: "$549.000",
+    image: nAireTcl,
+    description:
+      "2650W frío / 2500W calor. Climatización frío/calor para disfrutar de confort todo el año. Temporizador programable, pantalla digital y control remoto para fácil manejo y ajuste.",
+    tag: "Frío/Calor",
+  },
+  {
+    id: "mopa_rotativa_360",
+    name: "Mopa Rotativa 360° Expostore",
+    category: "electro",
+    price: "$19.990",
+    image: nMopaRotativa,
+    description:
+      "¡La forma más fácil y rápida de limpiar tu casa! Sistema de centrifugado que escurre el agua en segundos. Ideal para cerámico, porcelanato, madera y más. Giro 360°, balde con exprimidor incorporado, cabezal de microfibra súper absorbente, 2 repuestos incluidos. Antes $25.000.",
+    tag: "Oferta",
+  },
+  // ===== COMBOS =====
+  {
+    id: "combo_neba_1300",
+    name: "Combo Reventa $1.300.000 (Heladera Neba + 9 productos)",
+    category: "combos",
+    price: "$1.300.000",
+    image: nComboNeba,
+    description:
+      "Combo armado con productos que se venden solos, ideal para revender y recuperar rápido la inversión. Incluye: Heladera Neba 240L con dispenser, Lavarropas Enova 6kg, Microondas Tramontina, Horno freidora, Licuadora Peabody, Cafetera Dinax, Set de sartenes x3, Tuppers x5, Estufa Magiclick y Sandwichera 3 en 1 Dinax.",
+    tag: "Reventa",
+  },
+  {
+    id: "combo_hogar_1300",
+    name: "Combo Hogar Completo $1.300.000",
+    category: "combos",
+    price: "$1.300.000",
+    image: nComboHogar,
+    description:
+      "Equipá toda la casa en una sola compra. Incluye: Cocina Peabody Gris, Lavarropas Philco 6.5kg carga frontal, Heladera Neba No-Frost 240L, Set de Ollas Safira, Pava Eléctrica Atma, Set de cubiertos y set de utensilios 12 piezas. Ideal para primera vivienda, mudanzas o regalo completo.",
+    tag: "Hogar Total",
+  },
+  {
+    id: "combo_reventa_580",
+    name: "Combo Reventa $580.000 (10 productos)",
+    category: "combos",
+    price: "$580.000",
+    image: nComboReventa,
+    description:
+      "Combo completo para revender y hacer plata ya. Incluye: Microondas BGH 20L, ollas con utensilios, sartenes x3, tostadora Dinax, máquina de galletitas, licuadora Peabody, pochoclera Azzana, batidora planetaria 4L, vaso Quencher 900ml y pava hervidora Tokyo.",
+    tag: "Reventa",
+  },
 ];
