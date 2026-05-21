@@ -12,7 +12,7 @@ import pKiss from "../assets/images/p_kiss_rayhaan_perfume_bottle_with_gold_latt
 import pSabahAlWard from "../assets/images/p_sabah_al_ward_al_wataniah_perfume_bottle_with_crystal_cap_1779196674639.png";
 import pVsBody from "../assets/images/p_vs_body_1779225584917.png";
 import pKhamrah from "../assets/images/p_khamrah_1779225602887.png";
-import pOdysseyCandee from "../assets/images/p_odyssey_candee_1779225620657.png";
+import pOdysseyCandee from "../assets/images/nuevos/u_odyssey_candee_real.jpeg";
 import pOdysseyMarshmallow from "../assets/images/p_odyssey_marshmallow_1779225634520.png";
 import pElixirChic from "../assets/images/p_elixir_chic_1779225649973.png";
 
@@ -22,7 +22,7 @@ import pFakharTrio from "../assets/images/p_lattafa_fakhar_trio_1779231469493.pn
 import pYaraQuartet from "../assets/images/p_lattafa_yara_quartet_1779231490550.png";
 import pAsadAll from "../assets/images/p_lattafa_asad_all_1779231515312.png";
 import pKhamrahSeries from "../assets/images/p_lattafa_khamrah_series_1779231538313.png";
-import pEclaire from "../assets/images/p_lattafa_eclaire_1779231563374.png";
+import pEclaire from "../assets/images/nuevos/u_eclaire_real.jpeg";
 import pIphonesLineup from "../assets/images/p_iphones_lineup_1779231584124.png";
 import pArgShirt from "../assets/images/nuevos/u_camiseta_arg.png";
 
@@ -34,8 +34,8 @@ import nKitHerramientas from "../assets/images/nuevos/u_kit_herramientas.png";
 import nLavarropasCodini from "../assets/images/nuevos/u_lavarropas_codini.png";
 import nLavarropasPhilco from "../assets/images/nuevos/u_lavarropas_philco.png";
 import nCocinaUsman from "../assets/images/nuevos/u_cocina_usman.png";
-import nLavPhilco65 from "../assets/images/nuevos/17a91530-86fc-41bb-823d-41496c23e970.jpg";
-import nLavEnova from "../assets/images/nuevos/1e804738-9e30-4db4-8108-845f3057b673.jpg";
+// NOTA: el archivo 17a91530 muestra ENOVA, 3c1baabd muestra DREAN, mopa_rotativa.jpg muestra NEBA H240Y
+import nLavEnova from "../assets/images/nuevos/17a91530-86fc-41bb-823d-41496c23e970.jpg";
 import nTostSpiderman from "../assets/images/nuevos/bd111ca6-3eca-4123-b6c4-9c71a3790cc5.jpg";
 import nWafleraMickey from "../assets/images/nuevos/ef7367b7-3d4e-4561-8607-cc8b20fbc2c3.jpg";
 import nSandwichSpider from "../assets/images/nuevos/cd61560a-0161-4e63-a361-0243d3f0b18c.jpg";
@@ -48,14 +48,14 @@ import nTvRca65 from "../assets/images/nuevos/8d8b9954-2f9f-4d08-85e7-a17f06bf53
 import nComboHogar from "../assets/images/nuevos/c0c69dc8-1958-450d-ab0b-14d18b4070dd.jpg";
 import nComboReventa from "../assets/images/nuevos/967eb5dc-e6e7-44ab-a96d-28dcac1e4e3a.jpg";
 import nHeladeraGafa262 from "../assets/images/nuevos/2f859a73-bfe2-4ca1-a872-b4edb2cabccb.jpg";
-import nHeladeraGafa354 from "../assets/images/nuevos/c7a773ad-5608-4da7-b1c3-f629ce1be11a.jpg";
-import nHeladeraNeba240 from "../assets/images/nuevos/3c1baabd-74f2-47ec-b3b8-e9b069374290.jpg";
+import nHeladeraGafa356 from "../assets/images/nuevos/c7a773ad-5608-4da7-b1c3-f629ce1be11a.jpg";
+import nHeladeraDrean400 from "../assets/images/nuevos/3c1baabd-74f2-47ec-b3b8-e9b069374290.jpg";
+import nHeladeraNeba240 from "../assets/images/nuevos/mopa_rotativa.jpg";
 import nFreezerNeba180 from "../assets/images/nuevos/cc33a7ea-b677-4f61-9c1e-85cd1384916b.jpg";
 import nAutoEstereo from "../assets/images/nuevos/094967f6-6d6d-472e-a970-d42540f733c7.jpg";
 import nTvHyundaiB from "../assets/images/nuevos/1bbadf38-e6a0-4099-a2d8-a86346f2e20b.jpg";
 import nProyectorDinax from "../assets/images/nuevos/4686d469-b7a7-4112-bc86-51a99542edb1.jpg";
 import nAireTcl from "../assets/images/nuevos/e4649030-e65e-47db-be04-f5645e22dfcd.jpg";
-import nMopaRotativa from "../assets/images/nuevos/mopa_rotativa.jpg";
 import pEstufa1200 from "../assets/images/p_estufa_cuarzo_1200w.png";
 import pEstufa2Velas from "../assets/images/p_estufa_cuarzo_2velas.png";
 import pEstufa3Velas from "../assets/images/p_estufa_3velas_duavf.png";
@@ -670,13 +670,13 @@ export const PRODUCTS: Product[] = [
     tag: "Herramientas",
   },
   {
-    id: "kit_herramientas_129",
-    name: "Kit de Herramientas 129 Piezas",
+    id: "kit_herramientas_39",
+    name: "Kit de Herramientas 39 Piezas",
     category: "electro",
     price: "$42.900",
     image: nKitHerramientas,
     description:
-      "Incluye 129 herramientas para hogar, auto y trabajos generales: llaves, destornilladores, alicates, martillo, cinta métrica, nivel, puntas y mucho más. Viene en maletín rígido para mantener todo ordenado y fácil de transportar.",
+      "Estuche con 39 herramientas esenciales para hogar, oficina y taller: martillo, pinza, llave inglesa, destornillador con puntas intercambiables, llaves allen, pelacables, cúter y más. Maletín rígido resistente y portátil.",
     tag: "Kit Completo",
   },
   {
@@ -688,16 +688,6 @@ export const PRODUCTS: Product[] = [
     description:
       "Nuevo ingreso. 8 programas de lavado, display LED moderno, inicio diferido para programar el lavado y bajo consumo energético A+.",
     tag: "Nuevo Ingreso",
-  },
-  {
-    id: "lavarropas_philco_phlf6510p2",
-    name: "Lavarropas Philco Carga Frontal 6.5kg PHLF6510P2",
-    category: "electro",
-    price: "$480.000",
-    image: nLavPhilco65,
-    description:
-      "Capacidad 6.5 kg ideal para hogares pequeños o medianos. Centrifugado hasta 1000 RPM, 15 programas de lavado (incluye ciclo rápido de 15 minutos). Tambor de acero inoxidable con tecnología Snowflake Drum para cuidar las prendas.",
-    tag: "Carga Frontal",
   },
   {
     id: "lavarropas_philco_predicta",
@@ -830,33 +820,33 @@ export const PRODUCTS: Product[] = [
     tag: "No Frost",
   },
   {
-    id: "heladera_gafa_354",
-    name: "Heladera Gafa 354L Gris Plata No Frost",
+    id: "heladera_gafa_356",
+    name: "Heladera Gafa 356L Gris Plata Inverter",
     category: "electro",
     price: "$659.000",
-    image: nHeladeraGafa354,
+    image: nHeladeraGafa356,
     description:
-      "Tecnología Inverter: ahorra energía y enfría mejor. No Frost + sistema Multiflow. Estantes de vidrio templado, puertas reversibles y diseño moderno. Medidas: 170,5 × 60,2 × 67 cm.",
+      "Tecnología Inverter: ahorra energía y enfría mejor. No Frost + Sistema Multiflow, Smart Distribution y sector extra frío. Diseño moderno en gris plata.",
     tag: "Inverter",
   },
   {
     id: "heladera_drean_400",
-    name: "Heladera Drean 400L con Dispenser",
+    name: "Heladera Drean 396L con Dispenser",
     category: "electro",
     price: "$749.000",
-    image: nHeladeraGafa354,
+    image: nHeladeraDrean400,
     description:
-      "Eficiencia A+ para menor consumo y mejor rendimiento. Freezer superior XXL de 126 litros, sistema Cycle Defrost y dispenser de agua de 2L. Incluye estantes de vidrio templado regulables, luz LED interior y diseño moderno en gris.",
+      "Eficiencia A+ para menor consumo. 396L brutos con freezer XXL de 126L, sistema Cycle Defrost y dispenser de agua de 2 litros. Estantes de vidrio y diseño moderno en gris.",
     tag: "Dispenser",
   },
   {
     id: "heladera_neba_240",
-    name: "Heladera Neba 240L",
+    name: "Heladera Neba H240Y 240L con Freezer Superior",
     category: "electro",
     price: "$450.000",
     image: nHeladeraNeba240,
     description:
-      "240 litros en total, divididos en 171L para alimentos frescos y 42L para congelados. Sistema de frío cíclico. Medidas: 56.5 ancho x 1.27 alto x 62 prof.",
+      "240 litros de capacidad con freezer superior. Frío óptimo, bajo nivel de ruido, bajo consumo energético clase A y garantía Neba. Ideal para hogares medianos.",
     tag: "Oferta",
   },
   {
@@ -871,43 +861,33 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "auto_estereo_mp5_7",
-    name: "Auto Estéreo MP5 de 7”",
+    name: "Auto Estéreo SOAK SK-7018 MP5 7”",
     category: "electro",
     price: "$72.900",
     image: nAutoEstereo,
     description:
-      "Pantalla táctil de 7” HD 1080P con múltiples funciones. Radio FM, GPS, cámara retrovisor. Doble USB (datos y carga rápida). Mirror Link para Android y iOS.",
+      "Pantalla táctil capacitiva de 7” HD 1080P. Radio FM, Bluetooth, USB y entrada para cámara de retroceso. Incluye control remoto y cableado. Mirror Link para Android y iOS.",
     tag: "Car Audio",
   },
   {
     id: "proyector_dinax_4k",
-    name: "Proyector Portátil Dinax 4K",
+    name: "Proyector Portátil Dinax Link 4K",
     category: "electro",
     price: "$85.000",
     image: nProyectorDinax,
     description:
-      "Resolución 4K Ultra HD para imágenes nítidas y realistas. Brillo 200 ANSI, ideal para usar de día o de noche. Conexión HDMI + USB. Incluye control remoto y cable, listo para usar.",
+      "Resolución 4K Ultra HD nítida y realista. Brillo 200 ANSI ideal día/noche. Conexión HDMI + USB y Bluetooth 5.0 con sonido estéreo integrado. Incluye cable, listo para usar.",
     tag: "Cine en Casa",
   },
   {
     id: "aire_tcl_2600",
-    name: "Aire Acondicionado Split TCL 2600W",
+    name: "Aire Acondicionado Split TCL 2600W Frío/Calor",
     category: "electro",
     price: "$549.000",
     image: nAireTcl,
     description:
-      "2650W frío / 2500W calor. Climatización frío/calor para disfrutar de confort todo el año. Temporizador programable, pantalla digital y control remoto para fácil manejo y ajuste.",
+      "Split frío/calor: 2650W frío / 2500W calor para confort todo el año. Temporizador programable, pantalla digital y control remoto. Incluye unidad interior y exterior.",
     tag: "Frío/Calor",
-  },
-  {
-    id: "mopa_rotativa_360",
-    name: "Mopa Rotativa 360° Expostore",
-    category: "electro",
-    price: "$19.990",
-    image: nMopaRotativa,
-    description:
-      "¡La forma más fácil y rápida de limpiar tu casa! Sistema de centrifugado que escurre el agua en segundos. Ideal para cerámico, porcelanato, madera y más. Giro 360°, balde con exprimidor incorporado, cabezal de microfibra súper absorbente, 2 repuestos incluidos. Antes $25.000.",
-    tag: "Oferta",
   },
   // ===== COMBOS =====
   {
