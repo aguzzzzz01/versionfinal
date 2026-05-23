@@ -332,192 +332,88 @@ export const PRODUCTS: Product[] = [
     description:
       "Excelente perfume frutal dulce ultrafemenino. Botella prémium en forma de corazón negro con corona de espinas.",
   },
-
-  // GROUPED LATTAFA FAMILIES WITH SELECTABLE COLOR SPAN DOTS
+  // ===== LATTAFA YARA (1 producto por color) =====
   {
-    id: "lattafa_yara_family",
-    name: "Lattafa Yara Colección",
+    id: "yara_rosa",
+    name: "Lattafa Yara (Rosa)",
     category: "lattafa",
     price: "$59.900",
-    image: pYaraQuartet,
-    description: "La icónica línea Yara de Lattafa. Elegí entre sus deliciosas versiones virales.",
-    tag: "Viral Tik-Tok",
-    variants: [
-      {
-        name: "Lattafa Yara (Rosa)",
-        price: "$59.900",
-        image: pYaraQuartet,
-        colorName: "Yara Rosa",
-        colorHex: "#f472b6",
-        description:
-          "El gourmand cremoso viral. Notas de frutos rojos, heliotropo, vainilla y un suntuoso fondo de sándalo y almizcle.",
-        tag: "Top Ventas",
-      },
-      {
-        name: "Lattafa Yara Tous (Amarillo)",
-        price: "$59.900",
-        image: pYaraQuartet,
-        colorName: "Yara Tous Amarillo",
-        colorHex: "#facc15",
-        description:
-          "Explosión tropical exquisita. Notas jugosas de mango maduro, coco cremoso, maracuyá ácido y vainilla cálida.",
-        tag: "Tropical",
-      },
-      {
-        name: "Lattafa Yara Moi (Blanco)",
-        price: "$59.900",
-        image: pYaraQuartet,
-        colorName: "Yara Moi Blanco",
-        colorHex: "#ffffff",
-        description:
-          "Versión seductora, licorosa y elegante. Notas golosas de durazno dulce, caramelo caliente y sándalo suave.",
-        tag: "Elegante",
-      },
-      {
-        name: "Lattafa Yara Candy (Fucsia)",
-        price: "$59.900",
-        image: pYaraQuartet,
-        colorName: "Yara Candy Fucsia",
-        colorHex: "#db2777",
-        description:
-          "La más nueva delicia dulce. Mezcla golosa de fresas silvestres, sirope de vainilla y un toque de frambuesa.",
-        tag: "Lanzamiento",
-      },
-    ],
+    image: pYaraRosa,
+    description:
+      "El gourmand cremoso viral. Notas de frutos rojos, heliotropo, vainilla y un suntuoso fondo de sándalo y almizcle.",
+    tag: "Top Ventas",
   },
   {
-    id: "lattafa_asad_family",
-    name: "Lattafa Asad Colección",
+    id: "yara_amarillo",
+    name: "Lattafa Yara Tous (Amarillo)",
     category: "lattafa",
-    price: "$64.900",
-    image: pAsadAll,
-    description: "Saga Asad: fragancias imponentes masculinas de alta proyección.",
-    tag: "Recomendado",
-    variants: [
-      {
-        name: "Lattafa Asad Classic (Negro/Oro)",
-        price: "$64.900",
-        image: pAsadAll,
-        colorName: "Classic Negro",
-        colorHex: "#1a1a1a",
-        description:
-          "Insignia masculina similar a Sauvage Elixir. Pimienta negra, piña dulce, café, tabaco, pachulí y abundante vainilla.",
-        tag: "Recomendado",
-      },
-      {
-        name: "Lattafa Asad Zanzibar (Azul)",
-        price: "$64.900",
-        image: pAsadAll,
-        colorName: "Zanzibar Azul",
-        colorHex: "#0284c7",
-        description:
-          "El flanker veraniego fresco marino. Notas de sal, crema de coco exótica, lavanda, iris sutil y sándalo.",
-        tag: "Fresco",
-      },
-      {
-        name: "Lattafa Asad Elixir (Plateado)",
-        price: "$64.900",
-        image: pAsadAll,
-        colorName: "Elixir Negro/Plata",
-        colorHex: "#94a3b8",
-        description:
-          "Frasco negro mate premium con detalles plata. Notas amparadas de pimienta de Sichuan refinada y maderas.",
-        tag: "Intenso",
-      },
-      {
-        name: "Lattafa Asad Bourbon (Marrón)",
-        price: "$64.900",
-        image: pAsadAll,
-        colorName: "Bourbon Marrón",
-        colorHex: "#78350f",
-        description:
-          "Fragancia licorosa sofisticada. Mezcla espectacular de tabaco aromático rubio, uvas maceradas en barrica y vainilla.",
-        tag: "Lujoso",
-      },
-    ],
+    price: "$59.900",
+    image: pYaraAmarillo,
+    description:
+      "Explosión tropical exquisita. Notas jugosas de mango maduro, coco cremoso, maracuyá ácido y vainilla cálida.",
+    tag: "Tropical",
   },
   {
-    id: "lattafa_fakhar_family",
-    name: "Lattafa Fakhar Colección",
+    id: "yara_blanco",
+    name: "Lattafa Yara Moi (Blanco)",
+    category: "lattafa",
+    price: "$59.900",
+    image: pYaraBlanco,
+    description:
+      "Versión seductora, licorosa y elegante. Notas golosas de durazno dulce, caramelo caliente y sándalo suave.",
+    tag: "Elegante",
+  },
+  {
+    id: "yara_fucsia",
+    name: "Lattafa Yara Candy (Fucsia)",
+    category: "lattafa",
+    price: "$59.900",
+    image: pYaraFucsia,
+    description:
+      "La más nueva delicia dulce. Mezcla golosa de fresas silvestres, sirope de vainilla y un toque de frambuesa.",
+    tag: "Lanzamiento",
+  },
+  // ===== LATTAFA FAKHAR (1 producto por color) =====
+  {
+    id: "fakhar_black",
+    name: "Lattafa Fakhar Black",
     category: "lattafa",
     price: "$60.000",
-    image: pFakharTrio,
+    image: pFakharBlack,
     description:
-      "Sofisticación de exportación. Elegí la joya ideal de la trilogía Fakhar de Lattafa.",
-    tag: "Trilogía Lujo",
-    variants: [
-      {
-        name: "Lattafa Fakhar Black",
-        price: "$60.000",
-        image: pFakharTrio,
-        colorName: "Fakhar Negro",
-        colorHex: "#0f172a",
-        description:
-          "Elegancia masculina. Aroma floral-amaderado con toques de jengibre fresco, lavandina silvestre y maderas finas.",
-        tag: "Favorito",
-      },
-      {
-        name: "Lattafa Fakhar Extrait (Oro)",
-        price: "$60.000",
-        image: pFakharTrio,
-        colorName: "Fakhar Oro",
-        colorHex: "#d97706",
-        description:
-          "Formato Extrait de larga duración. Nardos suntuosos, pomelo cítrico, madera de sándalo cremoso y ámbar gris.",
-        tag: "Concentrado",
-      },
-      {
-        name: "Lattafa Fakhar Woman",
-        price: "$60.000",
-        image: pFakharTrio,
-        colorName: "Fakhar Blanco",
-        colorHex: "#f8fafc",
-        description:
-          "Seducción y pulcritud refinada. Flores blancas de azahar, jazmín fresco de jardín y notas jugosas de granada.",
-        tag: "Femenino",
-      },
-    ],
+      "Elegancia masculina. Aroma floral-amaderado con toques de jengibre fresco, lavandina silvestre y maderas finas.",
+    tag: "Favorito",
   },
   {
-    id: "lattafa_khamrah_family",
-    name: "Lattafa Khamrah Colección",
+    id: "fakhar_oro",
+    name: "Lattafa Fakhar Extrait (Oro)",
+    category: "lattafa",
+    price: "$60.000",
+    image: pFakharOro,
+    description:
+      "Formato Extrait de larga duración. Nardos suntuosos, pomelo cítrico, madera de sándalo cremoso y ámbar gris.",
+    tag: "Concentrado",
+  },
+  {
+    id: "fakhar_woman",
+    name: "Lattafa Fakhar Woman",
+    category: "lattafa",
+    price: "$60.000",
+    image: pFakharWoman,
+    description:
+      "Seducción y pulcritud refinada. Flores blancas de azahar, jazmín fresco de jardín y notas jugosas de granada.",
+    tag: "Femenino",
+  },
+  // ===== LATTAFA KHAMRAH ORIGINAL =====
+  {
+    id: "khamrah_original",
+    name: "Lattafa Khamrah Original",
     category: "lattafa",
     price: "$55.000",
     image: pKhamrah,
-    description: "La repostería de lujo árabe de Lattafa, suntuosas notas de dátiles y especias.",
+    description:
+      "Suntuoso elixir de canela tierna, dátiles maduros, praliné dulce, maderas finas y vainilla de excelente calidad. Repostería de lujo árabe.",
     tag: "Gourmand Legend",
-    variants: [
-      {
-        name: "Lattafa Khamrah (Original)",
-        price: "$55.000",
-        image: pKhamrah,
-        colorName: "Khamrah Original",
-        colorHex: "#b45309",
-        description:
-          "Suntuoso elixir de canela tierna, dátiles maduros, praliné dulce, maderas finas y vainilla de excelente calidad.",
-        tag: "Extrema Estela",
-      },
-      {
-        name: "Lattafa Khamrah Qahwa",
-        price: "$59.900",
-        image: pKhamrahSeries,
-        colorName: "Qahwa Café",
-        colorHex: "#451a03",
-        description:
-          "Deliciosa variante oriental que incorpora una nota amarga e intensa de café arábica recién tostado.",
-        tag: "Gourmand Top",
-      },
-      {
-        name: "Lattafa Khamrah Dukhan",
-        price: "$59.900",
-        image: pKhamrahSeries,
-        colorName: "Dukhan Ahumado",
-        colorHex: "#292524",
-        description:
-          "Misteriosa versión sutilmente ahumada, oscura y sumamente elegante de gran estirpe árabe otoñal.",
-        tag: "Otoño-Invierno",
-      },
-    ],
   },
   {
     id: "28",
