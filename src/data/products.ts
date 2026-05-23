@@ -18,13 +18,18 @@ import pElixirChic from "../assets/images/p_elixir_chic_1779225649973.png";
 
 // Brand New Generated Images
 import pAmberOudFixed from "../assets/images/p_amber_oud_fixed_1779231445442.png";
-import pFakharTrio from "../assets/images/p_lattafa_fakhar_trio_1779231469493.png";
-import pYaraQuartet from "../assets/images/p_lattafa_yara_quartet_1779231490550.png";
-import pAsadAll from "../assets/images/p_lattafa_asad_all_1779231515312.png";
-import pKhamrahSeries from "../assets/images/p_lattafa_khamrah_series_1779231538313.png";
 import pEclaire from "../assets/images/nuevos/u_eclaire_real.jpeg";
 import pIphonesLineup from "../assets/images/p_iphones_lineup_1779231584124.png";
 import pArgShirt from "../assets/images/nuevos/u_camiseta_arg.png";
+
+// Lattafa individuales (extraídos del composite con IA, fotos reales)
+import pYaraRosa from "../assets/images/nuevos/u_yara_rosa.png";
+import pYaraAmarillo from "../assets/images/nuevos/u_yara_amarillo.png";
+import pYaraBlanco from "../assets/images/nuevos/u_yara_blanco.png";
+import pYaraFucsia from "../assets/images/nuevos/u_yara_fucsia.png";
+import pFakharBlack from "../assets/images/nuevos/u_fakhar_black.png";
+import pFakharOro from "../assets/images/nuevos/u_fakhar_oro.png";
+import pFakharWoman from "../assets/images/nuevos/u_fakhar_woman.png";
 
 // === Nuevos productos (uploads + fotoss.rar) ===
 import nBotellaTermica from "../assets/images/nuevos/u_botella_termica.png";
