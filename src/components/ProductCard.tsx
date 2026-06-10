@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useMemo, useState } from "react";
 import { MessageCircle, ChevronDown, ChevronUp, Info, ShoppingCart, Check } from "lucide-react";
 import { Product, ProductModel } from "@/data/products";
@@ -16,7 +15,6 @@ const waLink = (productName: string, details?: string[]) => {
   const extras = (details ?? []).filter(Boolean);
   const detailsTxt = extras.length ? ` (${extras.join(" · ")})` : "";
   const msg = `Hola David! Vi tu catálogo web. Me interesa: ${productName}${detailsTxt} - Código de seguimiento: EXPOSTORE`;
-=======
 import { useState } from "react";
 import { MessageCircle, ChevronDown, ChevronUp } from "lucide-react";
 import { Product } from "@/data/products";
@@ -25,12 +23,10 @@ import { motion, AnimatePresence } from "motion/react";
 const WHATSAPP_NUMBER = "5491138012403";
 const waLink = (productName: string) => {
   const msg = `Hola David! Vi tu catálogo web. Me interesa: ${productName} - Código de seguimiento: EXPOSTORE`;
->>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
 };
 
 export function ProductCard({ product }: { product: Product }) {
-<<<<<<< HEAD
   const hasModels = !!product.models && product.models.length > 0;
   const hasVariants = !hasModels && !!product.variants && product.variants.length > 0;
   const hasSizes = !hasModels && !hasVariants && !!product.sizeVariants && product.sizeVariants.length > 0;
@@ -144,7 +140,6 @@ export function ProductCard({ product }: { product: Product }) {
 
 
       <div className="flex-1 flex flex-col">
-=======
   const [selectedIdx, setSelectedIdx] = useState(0);
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -204,15 +199,12 @@ export function ProductCard({ product }: { product: Product }) {
 
       <div className="flex-1 flex flex-col">
         {/* Title */}
->>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
         <h3 className="font-bold text-base leading-snug text-foreground/90 group-hover:text-gold transition-colors">
           {displayName}
         </h3>
 
-<<<<<<< HEAD
         <div className="mt-2 text-xs">
           <div className="overflow-hidden relative">
-=======
         {/* Expandable, smooth slidable description with toggle button */}
         <div className="mt-2 text-xs">
           <motion.div
@@ -220,17 +212,13 @@ export function ProductCard({ product }: { product: Product }) {
             transition={{ duration: 0.3, ease: "easeInOut" }}
             className="overflow-hidden relative"
           >
->>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
             <p
               className={`text-muted-foreground/90 leading-relaxed font-normal ${!isExpanded ? "line-clamp-2" : ""}`}
             >
               {displayDesc}
             </p>
-<<<<<<< HEAD
           </div>
-=======
           </motion.div>
->>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
 
           <button
             type="button"
@@ -251,7 +239,6 @@ export function ProductCard({ product }: { product: Product }) {
           </button>
         </div>
 
-<<<<<<< HEAD
         {/* Model selector (iPhones) */}
         {hasModels && (
           <div className="mt-4 space-y-1.5 border-t border-border/20 pt-3">
@@ -284,9 +271,7 @@ export function ProductCard({ product }: { product: Product }) {
         )}
 
         {/* Variant (color) selector for non-model products with variants */}
-=======
         {/* Dynamic Color Selector Rings (Only if has variants) */}
->>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
         {hasVariants && (
           <div className="mt-4 space-y-1.5 border-t border-border/20 pt-3">
             <div className="text-[10px] uppercase tracking-widest font-black text-gold/80">
@@ -294,19 +279,16 @@ export function ProductCard({ product }: { product: Product }) {
             </div>
             <div className="flex flex-wrap gap-2 py-1 items-center">
               {product.variants!.map((v, idx) => {
-<<<<<<< HEAD
                 const isSelected = variantIdx === idx;
                 return (
                   <button
                     key={idx}
                     onClick={() => setVariantIdx(idx)}
-=======
                 const isSelected = selectedIdx === idx;
                 return (
                   <button
                     key={idx}
                     onClick={() => setSelectedIdx(idx)}
->>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
                     title={v.colorName}
                     type="button"
                     className={`relative size-7 rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-115 active:scale-95 border-2 ${
@@ -316,10 +298,7 @@ export function ProductCard({ product }: { product: Product }) {
                     }`}
                     style={{ backgroundColor: v.colorHex }}
                   >
-<<<<<<< HEAD
-=======
                     {/* Visual contrasting indicator dot if selected */}
->>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
                     {isSelected && (
                       <span
                         className={`size-1.5 rounded-full ${
@@ -331,17 +310,13 @@ export function ProductCard({ product }: { product: Product }) {
                 );
               })}
               <span className="text-[10px] text-muted-foreground/70 font-bold ml-1">
-<<<<<<< HEAD
                 {product.variants![variantIdx].colorName}
-=======
                 {product.variants![selectedIdx].colorName}
->>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
               </span>
             </div>
           </div>
         )}
 
-<<<<<<< HEAD
         {/* Size selector (ML variants) */}
         {hasSizes && (
           <div className="mt-4 space-y-1.5 border-t border-border/20 pt-3">
@@ -413,21 +388,16 @@ export function ProductCard({ product }: { product: Product }) {
 
         {/* Options list (storage prices) */}
         {optionsList && optionsList.length > 0 && (
-=======
         {/* Options & Specs Pricing List if available (like in iPhone) */}
         {!hasVariants && product.options && product.options.length > 0 && (
->>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
           <div className="mt-4 space-y-2 border-t border-border/20 pt-3">
             <div className="text-[9px] uppercase tracking-widest font-black text-gold/80">
               Variantes & Almacenamiento
             </div>
-<<<<<<< HEAD
             <div className="space-y-1 max-h-28 overflow-y-auto pr-1 font-mono text-[11px]">
               {optionsList.map((opt, idx) => (
-=======
             <div className="space-y-1 max-h-24 overflow-y-auto pr-1 font-mono text-[11px]">
               {product.options.map((opt, idx) => (
->>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
                 <div
                   key={idx}
                   className="flex items-center justify-between rounded-md bg-black/20 px-2 py-1 border border-border/10 text-muted-foreground transition hover:border-gold/20"
@@ -440,7 +410,6 @@ export function ProductCard({ product }: { product: Product }) {
           </div>
         )}
 
-<<<<<<< HEAD
         {product.wholesale && (
           <div className="mt-4 relative overflow-hidden rounded-xl border border-gold/40 bg-gradient-to-br from-gold/[0.10] via-amber-500/[0.06] to-gold/[0.10] p-2.5">
             <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold/70 to-transparent" />
@@ -525,7 +494,6 @@ export function ProductCard({ product }: { product: Product }) {
         </div>
       </div>
     </div>
-=======
         {/* Footer actions & pricing display */}
         <div className="mt-auto pt-4 flex items-center justify-between gap-3">
           <div className="flex flex-col">
@@ -547,6 +515,5 @@ export function ProductCard({ product }: { product: Product }) {
         </div>
       </div>
     </motion.div>
->>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
   );
 }

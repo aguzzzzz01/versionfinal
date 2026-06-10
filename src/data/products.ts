@@ -6013,8 +6013,6 @@ export const PRODUCTS: Product[] = [
     wholesale: true,
   },
 
-<<<<<<< HEAD
-=======
 ];import nPistolaCalor from "../assets/images/nuevos/u_pistola_calor.png";
 import nKitHerramientas from "../assets/images/nuevos/u_kit_herramientas.png";
 import nLavarropasCodini from "../assets/images/nuevos/u_lavarropas_codini.png";
@@ -6802,5 +6800,4 @@ export const PRODUCTS_LIST_2: Product[] = [
       "Combo completo para revender y hacer plata ya. Incluye: Microondas BGH 20L, ollas con utensilios, sartenes x3, tostadora Dinax, máquina de galletitas, licuadora Peabody, pochoclera Azzana, batidora planetaria 4L, vaso Quencher 900ml y pava hervidora Tokyo.",
     tag: "Reventa",
   },
->>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
 ];
