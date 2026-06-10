@@ -10,8 +10,11 @@ import {
 
 import appCss from "../styles.css?url";
 import ogImage from "../assets/logo_fixed_1779202163805_1779229384372.png";
+<<<<<<< HEAD
 import { CartProvider } from "@/contexts/CartContext";
 import { CartDrawer } from "@/components/Cart";
+=======
+>>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
 
 function NotFoundComponent() {
   return (
@@ -104,11 +107,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         name: "twitter:image",
         content: ogImage,
       },
+<<<<<<< HEAD
       { name: "description", content: "A deployment application for managing and" },
       { property: "og:description", content: "A deployment application for managing and" },
       { name: "twitter:description", content: "A deployment application for managing and" },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/889d80e9-47f5-49f5-9429-7d6693e995b8/id-preview-e5ebe379--25ec3620-07eb-4345-8298-85ea4739596d.lovable.app-1779558574916.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/889d80e9-47f5-49f5-9429-7d6693e995b8/id-preview-e5ebe379--25ec3620-07eb-4345-8298-85ea4739596d.lovable.app-1779558574916.png" },
+=======
+      { name: "description", content: "Swift Deployment automates the deployment of applications." },
+      { property: "og:description", content: "Swift Deployment automates the deployment of applications." },
+      { name: "twitter:description", content: "Swift Deployment automates the deployment of applications." },
+>>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
     ],
     links: [
       {
@@ -142,10 +151,14 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
+<<<<<<< HEAD
       <CartProvider>
         <Outlet />
         <CartDrawer />
       </CartProvider>
+=======
+      <Outlet />
+>>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
     </QueryClientProvider>
   );
 }

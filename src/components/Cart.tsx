@@ -1,6 +1,10 @@
 import { ShoppingCart, X, Plus, Minus, Trash2, MessageCircle } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
+<<<<<<< HEAD
 import { useCart } from "@/contexts/CartContext";
+=======
+import { CartContext } from "../contexts/CartContext.tsx";
+>>>>>>> 06d7bc17e925f1011a3d958fd458cddd3a119f90
 
 const WHATSAPP_NUMBER = "5491138012403";
 
