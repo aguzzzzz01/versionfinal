@@ -6079,7 +6079,7 @@ export interface Product {
   variants?: ProductColorVariant[];
 }
 
-export const PRODUCTS: Product[] = [
+export const PRODUCTS_LIST_2: Product[] = [
   {
     id: "1",
     name: "Bade'e Al Oud Amethyst",
